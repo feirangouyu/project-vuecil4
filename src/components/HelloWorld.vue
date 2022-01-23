@@ -119,7 +119,7 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
+import { Options, Vue } from 'vue-class-component'
 
 @Options({
   props: {
@@ -127,7 +127,7 @@ import { Options, Vue } from "vue-class-component";
   },
 })
 export default class HelloWorld extends Vue {
-  msg!: string;
+  msg!: string
 }
 </script>
 
@@ -136,14 +136,17 @@ export default class HelloWorld extends Vue {
 h3 {
   margin: 40px 0 0;
 }
+
 ul {
-  list-style-type: none;
   padding: 0;
+  list-style-type: none;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
 }
+
 a {
   color: #42b983;
 }
